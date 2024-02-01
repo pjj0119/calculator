@@ -8,7 +8,7 @@ const ExpenseItem = ({Expenses, handleDelete, hadleEdit}) => {
 			<div className="info">
 				{/* initialExpenses 임시 데이터 최종으로 꺼내 쓰기 */}
 				<span className="expense">{Expenses.charge}</span>
-				<span className="amount">{Expenses.amount} 원</span>
+				<span className="amount">{Expenses.amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')} 원</span>
 			</div>
 			<div>
 				<button className="edit-btn"

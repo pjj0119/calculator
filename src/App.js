@@ -126,7 +126,7 @@ const App = () =>{
 				<p style={{fontSize:"2rem"}}>총 지출 : 
 				<span>
 					{expenses.reduce((acc,curr) => {
-						return acc += curr.amount
+						return (acc += curr.amount).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 					},0)}
 					원
 				</span>
