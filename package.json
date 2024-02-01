@@ -1,8 +1,8 @@
 {
-  "name": "calculator2",
+  "name": "calculator",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://pjj0119.github.io/calculator" ,
+  "homepage": "https://pjj0119.github.io/calculator/" ,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
